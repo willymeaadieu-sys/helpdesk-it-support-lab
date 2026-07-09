@@ -1,0 +1,35 @@
+Help Desk & IT Support Lab
+
+This will be a simulated help desk environment that will cover many scenarios that may come in the field. Scenarios such as ticket resolution, user/access management, trouble shooting, remote support, and machine deployment. This lab is meant to mirror Tier 1 help desk support roles 
+
+**AD LAB**
+Active Directory environment (Windows Server + AD DS) will simulate user lifecycle mangement: onboarding/offboarding, OU structure, group policy, permissions
+troubleshooting, and account recovery.
+- Status: In progress
+- Tools: Windows Server 2022, AD DS, GPO, VirtualBox
+
+**TICKETING SYSTEM** 
+Self-hosted ticketing system (osTicket) with realistic support tickets that will cover hardware, software, network, and access categories. Includes triage
+priority logic and resolution documentation.
+- Status: Not started
+- Tools: osTicket
+
+**RUNBOOK** 
+Diagnostic runbook for common end-user issues — symptom-based troubleshooting
+trees for boot failures, network drops, printing, blue screens, performance,
+login issues, and software crashes.
+- Status: In progress
+- Format: Markdown, one doc per symptom category
+
+**REMOTE SUPPORT**
+
+Recorded/documented remote troubleshooting sessions simulating real support
+calls using remote desktop tooling.
+- Status: Not started
+- Tools: TeamViewer / RDP
+
+**IMAGING**
+Machine imaging and deployment workflow — capturing, restoring, and deploying
+a standard OS image across VMs.
+- Status: Not started
+- Tools: Clonezilla
