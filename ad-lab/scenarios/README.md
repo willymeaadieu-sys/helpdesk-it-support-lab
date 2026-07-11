@@ -114,7 +114,7 @@ This correctly authenticated as `helpdesk\mjohnson` and returned **"Access is de
  Offboarding
 Permissions troubleshooting (share + NTFS permissions, verified via network path testing)
 
-[← Back to AD Lab setup](README.md) · [← Back to main portfolio](../README.md)
+
 
 
 
