@@ -4,13 +4,13 @@ This will be a simulated help desk environment that will cover many scenarios th
 
 ## AD LAB
 Active Directory environment (Windows Server + AD DS) will simulate user lifecycle management: onboarding/offboarding, OU structure, group policy, permissions troubleshooting, and account recovery.
-- Status: In progress
+- Status: Finished
 - Tools: Windows Server 2022, AD DS, GPO, VirtualBox
 - 📄 [Full documentation](ad-lab/README.md)
 
 ## TICKETING SYSTEM
 Self-hosted ticketing system (osTicket) with realistic support tickets that will cover hardware, software, network, and access categories. Includes triage priority logic and resolution documentation.
-- Status: Not started
+- Status: In progress 
 - Tools: osTicket
 
 ## RUNBOOK
