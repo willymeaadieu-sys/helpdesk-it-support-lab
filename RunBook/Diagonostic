@@ -1,0 +1,32 @@
+# Runbook
+
+Diagnostic runbook for common end-user issues, structured as symptom-based troubleshooting trees. Each doc walks through a decision tree for a single symptom category — what to check first, how to branch based on what you find, and when to stop digging and escalate.
+
+This exercise is meant to mirror teir 1 help desk user issues
+
+## Contents
+
+| Category | Status | Doc |
+|---|---|---|
+| Boot Failures | ⬜ Not started | [boot-failures.md](boot-failures.md) |
+| Network Drops | ⬜ Not started | [network-drops.md](network-drops.md) |
+| Printing | ⬜ Not started | [printing.md](printing.md) |
+| Blue Screens (BSOD) | ⬜ Not started | [blue-screens.md](blue-screens.md) |
+| Performance | ⬜ Not started | [performance.md](performance.md) |
+| Login Issues | ⬜ Not started | [login-issues.md](login-issues.md) |
+| Software Crashes | ⬜ Not started | [software-crashes.md](software-crashes.md) |
+
+## Format
+
+Every doc in this section follows the same structure:
+
+1. **Symptom description** — what the user reports, in their words vs. what it usually means
+2. **Decision tree** — a Mermaid flowchart showing the diagnostic branches, rendered natively on GitHub
+3. **Resolution steps** — concrete steps tied to each branch/outcome in the tree
+4. **Escalate if** — conditions under which the issue goes past Tier 1 (hardware failure, requires elevated access, vendor issue, recurring/systemic pattern, etc.)
+
+The goal for this diagnostic is to simulate the tought process that goes into solving issues that users are having
+## Tools
+
+- **Format:** Markdown
+- **Diagrams:** Mermaid (native GitHub rendering, no external image hosting needed)
